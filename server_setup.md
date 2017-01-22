@@ -18,3 +18,9 @@
         $ git config --global user.name "AshishBora"
         $ git config --global user.email "ashish.dilip.bora@gmail.com"
         ```
+    - Nice colors
+
+        ```shell
+        $ git config --global color.ui auto
+        ```
+

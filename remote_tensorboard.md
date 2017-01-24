@@ -1,7 +1,7 @@
 # Remote tensorboard
 
 
-###### Forward server port to local
+###### Forward remote port to local
 ```
 LOCAL_PORT=6006
 REMOTE_PORT=6006
@@ -13,9 +13,9 @@ ssh -p2002 -L $LOCAL_PORT:calvin.ece.utexas.edu:$REMOTE_PORT abora@calvin.ece.ut
 pkill -o -u abora sshd
 ```
 
-###### Now on server do:
+###### Now on remote do:
 ```
-tensorboard --logdir='/to/summaries/directory/' --port SERVER_PORT
+tensorboard --logdir='/to/summaries/directory/' --port REMOTE_PORT
 ```
 
 ###### Then on local, navigate to:

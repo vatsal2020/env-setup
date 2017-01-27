@@ -15,7 +15,8 @@ pkill -o -u abora sshd
 
 ###### Now on remote do:
 ```
-tensorboard --logdir='/to/summaries/directory/' --port REMOTE_PORT
+REMOTE_PORT=6006
+tensorboard --logdir='/to/summaries/directory/' --port $REMOTE_PORT
 ```
 
 ###### Then on local, navigate to:

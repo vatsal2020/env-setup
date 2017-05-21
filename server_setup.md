@@ -17,8 +17,8 @@
     - Proper commit accredition:
 
         ```shell
-        $ git config --global user.name "AshishBora"
-        $ git config --global user.email "ashish.dilip.bora@gmail.com"
+        $ git config --global user.name "vatsal2020"
+        $ git config --global user.email "vatsalshah1106@gmail.com"
         ```
 
 4. Nice colors
